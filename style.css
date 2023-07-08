@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container img{
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.weather{
+    height: 20rem;
+    width: 20rem;
+    background-color:#000406b3;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    border-radius: 20px;
+    box-shadow:10px 10px 18px 7px #121216;
+}
+.location{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.location h2{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+}
+.icon p img{
+    height: 1.5rem;
+    width: 5rem;
+    margin-left: 2rem;
+    margin-top: 1.6rem;
+}
+
+.time_temp{
+    margin: 3rem;
+    margin-left: 1.5rem;
+}
+.time_temp h1{
+    padding-bottom: .7rem;
+    color: white;
+}
+.time_temp span{
+    color: white;
+    /* font-size: 1.1rem; */
+    font-weight: 600;
+}
+
+.weather_condition p{
+    margin-left: 1.5rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: 0px solid;
+    margin-right: 6rem;
+    text-align: center;
+    border-radius: 25px;
+    padding: .5rem;
+    background-color:#00040645;
+    width: 16rem;
+
+}
+
+nav{
+    position: absolute;
+    display: flex;
+    bottom:25%;
+    left: 35%;
+}
+
+form .searchField{
+    width: 30rem;
+    height: 1.8rem;
+    position: relative;
+    padding-left: 1rem;
+}
+form button{
+    position: absolute;
+    right: .1rem;
+    border: none;
+    cursor: pointer;
+    background-color: #13070712;
+    height: 1.8rem;
+    width: 5rem;
+}
+
+
